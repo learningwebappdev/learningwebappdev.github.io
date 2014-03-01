@@ -1,1 +1,16 @@
-Hello World (from Github).
+---
+layout: blog
+title: Blog Template for Bootstrap
+---
+
+{% for post in site.posts %}
+
+<div class="blog-post">
+  <h2 class="blog-post-title">{{ post.title }}</h2>
+  <p class="blog-post-meta">{{ post.date | date_to_string }}</a></p>
+  {{ post.excerpt }}
+  [<a href="{{ post.url }}">...</a>]
+</div>
+
+{% endfor %}
+
