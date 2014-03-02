@@ -1,3 +1,4 @@
-name: Your New Jekyll Site
+name: Learning Web Application Development
 markdown: redcarpet
 pygments: true
+paginate: 3
