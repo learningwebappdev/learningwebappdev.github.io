@@ -162,3 +162,13 @@ h6, .h6 {
   background-color: #f9f9f9;
   border-top: 1px solid #e5e5e5;
 }
+
+@media (max-width: 320px) {
+  .blog-post-title {
+    font-size: 34px;
+  }
+  .blog-title {
+    font-size: 45px;
+    margin-top: 0;
+  }
+}
