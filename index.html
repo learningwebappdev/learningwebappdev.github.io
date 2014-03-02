@@ -8,8 +8,8 @@ title: Learning Web Application Development -- Now Available from O'Reilly Media
 <div class="blog-post">
   <h2 class="blog-post-title">{{ post.title }}</h2>
   <p class="blog-post-meta">{{ post.date | date_to_string }}</a></p>
-  {{ post.excerpt }}
-  [<a href="{{ post.url }}">...</a>]
+  {{ post.content }}
+  [<a href="{{ post.url }}">permalink</a>]
 </div>
 
 {% endfor %}
