@@ -1,0 +1,18 @@
+---
+link: Errata
+layout: blog
+title: Learning Web Application Development -- Now Available from O'Reilly Media -- Errata
+---
+
+
+<h3>Chapter 1</h3>
+<ul>
+{% for post in site.categories.errata %}
+
+{% if 'chapter1'.in?(temp.categories) %}
+<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endif %}
+
+{% endfor %}
+</ul>
+

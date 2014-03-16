@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     
-    <title>Learning Web Application Development -- Now Available from O'Reilly Media</title>
+    <title>{{ page.title }}</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
@@ -31,9 +31,21 @@
     <div class="blog-masthead">
       <div class="container">
         <nav class="blog-nav">
+          {% if page.link == "Home" %}
           <a class="blog-nav-item active" href="/index.html">Home</a>
-          <a class="blog-nav-item" href="http://github.com/semmypurewal/learningwebappdev">Examples</a>
-          <a class="blog-nav-item" href="#">Errata</a>
+          {% else %}
+          <a class="blog-nav-item" href="/index.html">Home</a>          
+          {% endif %}
+
+          {% if page.link == "Errata" %}
+          <a class="blog-nav-item active" href="/errata.html">Errata</a>
+          {% else %}
+          <a class="blog-nav-item" href="/errata.html">Errata</a>
+          {% endif %}
+          
+          <a class="blog-nav-item" href="http://github.com/semmypurewal/learningwebappdev">Examples <i class="fa fa-external-link fa-1x"></i></a>
+
+
         </nav>
       </div>
     </div>
