@@ -15,4 +15,4 @@ The actual picture for Figure 1-12 is [here](/images/git_diagram.png).
 
 <img class="img-responsive" src="/images/git_diagram.png">
 
-
+Thanks to [Matthew Brockway](http://twitter.com/BothXP) for reporting this!
