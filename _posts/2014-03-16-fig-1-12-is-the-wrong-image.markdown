@@ -4,6 +4,7 @@ title:  "Fig 1-12 is the Wrong Image"
 date:   2014-03-16 13:02:33
 categories: errata chapter1
 author: Semmy
+page: 19
 ---
 
 For some reason, there are a couple of places that images got mixed up in the
