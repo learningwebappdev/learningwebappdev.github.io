@@ -33,3 +33,10 @@ title: Learning Web Application Development -- Now Available from O'Reilly Media
 {% endfor %}
 </ul>
 
+<h3>Chapter 9</h3>
+<ul>
+{% for post in site.categories['chapter9','errata']%}
+<li><a href="{{ post.url }}">[Page {{ post.page }}] {{ post.title }}</a></li>
+{% endfor %}
+</ul>
+
