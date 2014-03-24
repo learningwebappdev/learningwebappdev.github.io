@@ -24,4 +24,4 @@ object.
         }
     });
 
-Thanks to [amikiri](https://github.com/amikiri) for reporting this!
+Thanks to [Micheal Beatty](https://twitter.com/mwbeatty) for reporting this!
