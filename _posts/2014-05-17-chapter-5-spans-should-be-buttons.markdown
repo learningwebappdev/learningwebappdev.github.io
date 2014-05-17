@@ -4,7 +4,7 @@ title:  "spans should be buttons"
 date:   2014-04-20 13:40:00
 categories: errata chapter5
 author: Semmy
-page: 174-175
+page: 174
 ---
 
 There are a couple of instance on pagees 174-175 where code that looks
