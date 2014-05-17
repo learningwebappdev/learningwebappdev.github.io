@@ -2,7 +2,7 @@
 layout: post
 title:  "minor error in tabs"
 date:   2014-04-20 19:40:00
-categories: errata chapter7
+categories: errata chapter4
 author: Semmy
 page: 135
 ---
