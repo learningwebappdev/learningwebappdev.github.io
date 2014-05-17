@@ -9,10 +9,16 @@ title: Learning Web Application Development -- Now Available from O'Reilly Media
   {% if site.categories[cpt].size >= 1 %}
     <h3>Chapter {{ num }}</h3>
     <ul>
-    {% for post in site.categories[cpt] %}
-      {% if post.categories contains 'errata' %}
-      <li><a href="{{ post.url }}">[Page {{ post.page }}] {{ post.title }}</a></li>
-      {% endif %}
+    {% assign posts = site.categories[cpt] %}
+
+    {% for page in (1..400) %}
+      {% for post in posts  %}    
+        {% if post.page == page %}
+          {% if post.categories contains 'errata' %}
+          <li><a href="{{ post.url }}">[Page {{ post.page }}] {{ post.title }}</a></li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
     {% endfor %}
     </ul>
   {% endif %}
