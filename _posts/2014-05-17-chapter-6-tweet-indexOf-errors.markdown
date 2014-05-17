@@ -18,4 +18,4 @@ property instead:
 
     tweet.text.indexOf("awesome") > -1
 
-Thanks to David Boles for reporting this!
+Thanks to David Boles and [Nick Litwin](https://github.com/polynickglot) for reporting this!
