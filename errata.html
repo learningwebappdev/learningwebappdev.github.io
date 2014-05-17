@@ -4,46 +4,16 @@ layout: blog
 title: Learning Web Application Development -- Now Available from O'Reilly Media -- Errata
 ---
 
-
-<h3>Chapter 1</h3>
-<ul>
-{% for post in site.categories['chapter1','errata'] %}
-<li><a href="{{ post.url }}">[Page {{ post.page }}] {{ post.title }}</a></li>
+{% for num in (1..9) %}
+  {% capture cpt %}chapter{{num}}{% endcapture %}
+  {% if site.categories[cpt].size >= 1 %}
+    <h3>Chapter {{ num }}</h3>
+    <ul>
+    {% for post in site.categories[cpt] %}
+      {% if post.categories contains 'errata' %}
+      <li><a href="{{ post.url }}">[Page {{ post.page }}] {{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  {% endif %}
 {% endfor %}
-</ul>
-
-<h3>Chapter 2</h3>
-<ul>
-{% for post in site.categories['chapter2','errata']%}
-<li><a href="{{ post.url }}">[Page {{ post.page }}] {{ post.title }}</a></li>
-{% endfor %}
-</ul>
-
-<h3>Chapter 4</h3>
-<ul>
-{% for post in site.categories['chapter4','errata']%}
-<li><a href="{{ post.url }}">[Page {{ post.page }}] {{ post.title }}</a></li>
-{% endfor %}
-</ul>
-
-<h3>Chapter 6</h3>
-<ul>
-{% for post in site.categories['chapter6','errata']%}
-<li><a href="{{ post.url }}">[Page {{ post.page }}] {{ post.title }}</a></li>
-{% endfor %}
-</ul>
-
-<h3>Chapter 7</h3>
-<ul>
-{% for post in site.categories['chapter7','errata']%}
-<li><a href="{{ post.url }}">[Page {{ post.page }}] {{ post.title }}</a></li>
-{% endfor %}
-</ul>
-
-<h3>Chapter 9</h3>
-<ul>
-{% for post in site.categories['chapter9','errata']%}
-<li><a href="{{ post.url }}">[Page {{ post.page }}] {{ post.title }}</a></li>
-{% endfor %}
-</ul>
-
