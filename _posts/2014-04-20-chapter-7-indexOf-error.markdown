@@ -2,7 +2,7 @@
 layout: post
 title:  "indexOf off-by-one error"
 date:   2014-04-20 12:18:00
-categories: errata chapter6
+categories: errata chapter7
 author: Semmy
 page: 219
 ---
