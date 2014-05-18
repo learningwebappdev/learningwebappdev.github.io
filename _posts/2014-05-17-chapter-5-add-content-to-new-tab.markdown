@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Missing content in new tab"
-date:   2014-04-20 13:50:00
+date:   2014-05-17 13:50:00
 categories: errata chapter5
 author: Semmy
 page: 175

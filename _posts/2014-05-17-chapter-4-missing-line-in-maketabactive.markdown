@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "missing line in makeTabActive"
-date:   2014-04-20 23:41:00
+date:   2014-05-17 23:41:00
 categories: errata chapter4
 author: Semmy
 page: 136

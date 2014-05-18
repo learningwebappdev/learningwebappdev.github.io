@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "spans should be buttons"
-date:   2014-04-20 13:40:00
+date:   2014-05-17 13:40:00
 categories: errata chapter5
 author: Semmy
 page: 174

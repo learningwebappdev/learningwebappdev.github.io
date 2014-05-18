@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "client should be redisClient"
-date:   2014-04-20 18:40:00
+date:   2014-05-17 18:40:00
 categories: errata chapter7
 author: Semmy
 page: 219

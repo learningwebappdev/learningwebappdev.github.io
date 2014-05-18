@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "duplicate variable declaration"
-date:   2014-04-20 20:40:00
+date:   2014-05-17 20:40:00
 categories: errata chapter4
 author: Semmy
 page: 108
