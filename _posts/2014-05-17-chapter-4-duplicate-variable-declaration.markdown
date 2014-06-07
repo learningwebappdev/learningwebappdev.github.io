@@ -19,4 +19,4 @@ code looks like this:
         $(".comment-input input").val("");
     }
 
-Thanks to Ken Hommel for reporting this.
+Thanks to [Ken Hommel](https://www.linkedin.com/pub/ken-hommel/1/2a/225) for reporting this.

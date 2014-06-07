@@ -18,4 +18,4 @@ of outside of it (that way it's 'hidden' from the global scope), but since
 this is just a test application to set up the functionality, it doesn't
 really matter either way.
 
-Thanks to Ken Hommel for pointing this out!
+Thanks to [Ken Hommel](https://www.linkedin.com/pub/ken-hommel/1/2a/225) for pointing this out!

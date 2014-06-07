@@ -20,4 +20,4 @@ the new content can be added. The full function should look like this.
         $("main .content").empty();        
     };
 
-Thanks to Ken Hommel for reporting this!
+Thanks to [Ken Hommel](https://www.linkedin.com/pub/ken-hommel/1/2a/225) for reporting this!
