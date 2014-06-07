@@ -16,3 +16,5 @@ There are a couple of related issues as well. If you're running into trouble get
 [Bug in Server Code](http://learningwebappdev.com/errata/chapter6/2014/04/12/chapter-6-bug-in-server.html)
 
 [Express 4 Problems](http://learningwebappdev.com/errata/chapter6/2014/04/12/chapter-6-express-version-4.html)
+
+These issues have been reported by several readers, and will be fixed in the first ebook update.
