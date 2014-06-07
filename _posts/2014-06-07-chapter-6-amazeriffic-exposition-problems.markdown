@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Amazeriffic Problems in Chapter 6"
-date:   2014-04-20 12:40:00
+date:   2014-06-07 12:40:00
 categories: errata chapter6
 author: Semmy
 page: 202
