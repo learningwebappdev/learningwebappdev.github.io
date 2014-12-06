@@ -1,22 +1,30 @@
 {% include header.html %}
-<div class="container">
-  <div class="blog-header">
-    <h1 class="blog-title">{{ page.title }}</h1>
-    <p class="meta">{{ page.date | date_to_string }}</p>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-sm-8 blog-main">
 
-      <div class="post">
-        {{ content }}
-      </div>
-
+<div class="wrapper subPage blogContent">
+  <div class="content">
+    <ol class="breadcrumb">
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="/errata.html">Errata</a></li>
+    <li class="active">{{ page.title }}</li>
+    </ol>
+    <div class="blogHeading">
+      <h2 class="heading">{{ page.title }}</h2>
+      <p class="meta">First printing, page {{ page.page }}</p>
+      <p class="meta">{{ page.date | date_to_string }}</p>
     </div>
+    <section class="blogInner">
+      {{ content }}
+    </section>
 
-    {% include sidebar.html %}
 
-  </div><!-- /.row -->
-  
-</div><!-- /.container -->
+
+
+  </div>
+
+{% include sidebar.html %}
+
+</div>
+<!-- end wrapper subPage -->
+
+
 {% include footer.html %}

@@ -1,17 +1,89 @@
 ---
 link: Home
-layout: blog
+layout: container
 title: Learning Web Application Development -- Now Available from O'Reilly Media
 ---
 
-{% for post in paginator.posts %}
+  <section class="wrapper heroUnit">
+    <figure>
+      <img src="images/bookDisplay.jpg" alt="Kindle and iPad versions of Learning Web App Development">
+    </figure>
+    <div class="content">
+      <h2 class="mainCopy">Grasp the fundamentals of web application development by building a simple database-backed app from scratch, using HTML, JavaScript, and other open source tools.</h2>
+      <div class="mainCtaButton">
+        <a class="btn btn-lg btn-primary" href="http://www.jdoqocy.com/click-7557398-11260198?url=http%3A%2F%2Fshop.oreilly.com%2Fproduct%2F0636920030621.do%3Fcmp%3Daf-prog-books-videos-product_cj_9781449370190_%2525zp&cjsku=0636920030621">Buy eBook on O'Reilly.com</a>
+        <footer>
+          <p>All formats, one price &mdash; ePub, mobi, PDF</p>
+          <span>Also available in paperback.</span>
+        </footer>
+      </div>
+    </div>
+  </section>
+  <!-- end hero unit -->
 
-<div class="blog-post">
-  <h2 class="blog-post-title">{{ post.title }}</h2>
-  <p class="blog-post-meta">{{ post.date | date_to_string }}</a></p>
-  {{ post.content }}
-  [<a href="{{ post.url }}">permalink</a>]
-</div>
+  <section class="wrapper">
+    <div class="introduction">
+      <h2 class="heading">Start Learning</h2>
+      <p>Through hands-on tutorials, this practical guide shows inexperienced web app developers how to create a user interface, write a server, build client-server communication, and use a cloud-based service to deploy the application.</p>
+      <p>Each chapter includes practice problems, full examples, and mental models of the development workflow. Ideal for a college-level course, this book helps you get started with web app development by providing you with a solid grounding in the process.</p>
+    </div>
+    <a href="reviews.html">
+      <div class="quote quoteCallout">
+        <div class="inner">
+          <h3>[...]This book was <em>absolutely perfect</em> for learning how to build a web application from scratch.</h3>
+          <p class="author">&mdash; O'Reilly Customer</p>
+        </div>
+        <p class="link">Read More Praise <span class="fa fa-arrow-right" aria-hidden="true"></span></p>
+      </div>
+    </a>
+  </section>
 
-{% endfor %}
+  <section class="wrapper">
+    <div class="mainHeader">
+      <h2>Build Quickly With JavaScript</h2>
+    </div>
+    
+    <div class="description">
+      <ul>
+        <li>Set up a basic workflow with a text editor, version control system, and web browser</li>
+        <li>Structure a user interface with HTML, and include styles with CSS</li>
+        <li>Use jQuery and JavaScript to add interactivity to your application</li>
+        <li>Link the client to the server with AJAX, JavaScript objects, and JSON</li>
+      </ul>
+      <ul>
+        <li>Learn the basics of server-side programming with Node.js</li>
+        <li>Store data outside your application with Redis and Mongo DB</li>
+        <li>Share your application by uploading it to the cloud with CloudFoundry</li>
+        <li>Get basic tips for writing maintainable code on both the client and server</li>
+      </ul>
+      <a href="preface.html">Read the Preface <span class="fa fa-arrow-right" aria-hidden="true"></span></span></a>
+    </div>
+  </section>
+
+  <section class="wrapper">
+    <div class="mainCtaButton soloCtaButton">
+      <a class="btn btn-lg btn-primary" href="#">Buy eBook on O'Reilly.com</a>
+      <footer>
+        <p>All formats, one price &mdash; ePub, mobi, PDF</p>
+        <span>Also available in paperback.</span>
+      </footer>
+    </div>
+  </section>
+
+  <section class="wrapper">
+    <a href="reviews.html">
+      <div class="quote quoteCallout">
+        <div class="inner">
+          <h3>So far <em>the best book</em> I've read about getting into web application development.</h3>
+          <p class="author">&mdash; O'Reilly Customer</p>
+        </div>
+        <p class="link">Read More Praise <span class="fa fa-arrow-right" aria-hidden="true"></span></p>
+      </div>
+    </a>
+    <figure class="supportingImage">
+      <img src="images/sheep.png" alt="Sheep">
+    </figure>
+    
+  </section>
+
 

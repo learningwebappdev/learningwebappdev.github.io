@@ -1,0 +1,458 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Learning Web Application Development -- Now Available from O'Reilly Media</title>
+
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
+    <link href="/custom/typewriterFontKit.css" rel="stylesheet">
+    <link href="/custom/bookTemplate.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <nav class="navbar" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobileNav">
+            <span>Menu</span>
+          </button>
+           <a class="visible-xs navbar-brand" href="index.html">Learning Web App Development</a>
+           <li class='visible-xs pull-right'><a href="#" class="btn btn-primary btn-sm">Buy eBook</a></li>
+        </div>
+        <div class="collapse navbar-collapse" id="mobileNav">
+          <ul class="nav navbar-nav">
+            
+            <li><a href="/index.html">Home</a></li>
+            
+
+            
+            <li><a href="/praise.html">Praise</a></li>
+            
+
+            
+            <li class="active"><a href="/preface.html">Preface</a></li>
+            
+
+            
+            <li><a href="/errata.html">Errata</a></li>
+            
+
+            
+            <li><a href="/examples.html">Examples</a></li>
+            
+
+            <li class="share-button"></li> 
+
+          </ul>
+        </div> 
+
+      </div>
+    </nav>
+
+    
+    <div class="mainContainer container">
+      <div class="mainHeader">
+        <h1 class="heading">Learning Web App Development</h1>
+        <p>by Semmy Purewal</p>
+      </div>
+
+<div class="wrapper subPage">
+<div class="content prefaceContent">
+  <h2 class="heading">Preface</h2>
+  <div class="sidebarNav visible-xs">
+      <ul>
+        <li>
+          <a href="#introduction">Introduction</a>
+        </li>
+        <li>
+          <a href="#techChoices">Technology Choices</a>
+        </li>
+        <li>
+          <a href="#bookForYou">Is This Book for You?</a>
+        </li>
+        <li>
+          <a href="#learningWith">Learning with This Book</a>
+        </li>
+        <li>
+          <a href="#teachingWith">Teaching with This Book</a>
+        </li>
+        <li>
+          <a href="#forHelp">Where to Go for Help</a>
+        </li>
+        <li>
+          <a href="#codeComments">General Comments on Code</a>
+        </li>
+        <li>
+          <a href="#acknowlegements">Acknowledgments</a>
+        </li>
+      </ul>
+    </div>
+  <section id="introduction">
+    <h3>Introduction</h3>
+    <p>In early 2008, after about six years of grad school and teaching
+    part-time, I found myself hoping to land a job as a full-time computer
+    science professor. It didn't take me long to realize that professor
+    jobs are really hard to come by, and obtaining a good one has almost
+    as much to do with luck as it has to do with anything else. So I did
+    what any self-respecting academic does when faced with a scary
+    academic job market: I decided to make myself employable by learning
+    how to develop web applications.</p>
+    <p>This may sound a little strange. After all, I had been studying
+    computer science for about nine years at that point, and had been
+    teaching students how to develop software for about six years.
+    Shouldn't I have <em>already known</em> how to build web applications? It
+    turns out that there's a pretty large gap between practical, everyday
+    software engineering and programming as taught by computer science
+    departments at colleges and universities. In fact, my knowledge of web
+    development was limited to HTML and a little CSS that I had taught
+    myself at the time.</p>
+    <p>Fortunately, I had several friends who were actively working in the
+    web development world, and most of them seemed to be talking about a
+    (relatively) new framework called Ruby on Rails. It seemed like a good
+    place to focus my efforts. So I purchased several books on the topic
+    and started reading online tutorials to get up to speed.</p>
+    <p>And after a couple months of really trying to get it, I nearly gave up.</p>
+    <p>Why? Because most of the books and tutorials started out with the
+    assumption that I had already been developing web apps for years! And
+    even though I had a pretty solid background in computer programming, I
+    found all of the material extremely terse and difficult to follow. For
+    example, it turns out you can take an awful lot of computer science
+    classes without ever coming across the Model-View-Controller design
+    pattern, and some of the books assumed you understood that in the
+    first chapter!</p>
+    <p>Nevertheless, I managed to learn enough about web app development to
+    get a few consulting gigs to support me until I managed to land a
+    professor job. And through that, I realized I enjoyed the practical
+    aspects of the field so much that I continued consulting outside of
+    teaching.</p>
+    <p>After a few years of doing both, I was offered the opportunity to
+    teach my first class in Web Application Development at the University
+    of North Carolina at Asheville. My initial inclination was to <em>start</em>
+    with Ruby on Rails, but when I started reading the latest books and
+    tutorials, I realized that they hadn't improved much over the years.
+    This isn't to say that they aren't good resources for people who
+    already have a background in the basics, it's just that they didn't
+    seem suitable for the students I was teaching.</p>
+    <p>Sadly, but not surprisingly, the academic books on web development are
+    far worse! Many of them contain outdated concepts and idioms, and
+    don't cover the topics in a way that make platforms like Ruby on Rails
+    more accessible. I even reviewed one book that was updated in 2011 and
+    still used table-based layouts and the 'font' tag!</p>
+    <p>I didn't have much of a choice but to develop my course from scratch,
+    creating all the material myself. I had done a little work in some
+    consulting gigs with Node.js (server-side JavaScript) at the time, so
+    I thought it would be interesting to try to teach a course that
+    covered the same language on the client and server. Furthermore, I
+    made it my goal to give the students enough background to launch into
+    the self-study of Ruby on Rails if they decided to continue.</p>
+    <p>This book consists largely of the material that I created while I was
+    teaching this course at UNCA. It shows how to build a basic
+    database-backed web application from scratch using JavaScript. This
+    includes a basic web-development workflow (using a text editor and
+    version control), the basics of client-side technologies (HTML, CSS,
+    jQuery, JavaScript), the basics of server-side technologies (Node.js,
+    HTTP, Databases), the basics of cloud deployment (Cloud Foundry), and
+    some essential good code practices (functions, MVC, DRY). Along the
+    way we'll get to explore some of the fundamentals of the JavaScript
+    language, how to program using arrays and objects, and the mental
+    models that come along with this type of software development.</p>
+  </section>
+  <section id="techChoices">
+    <h3>Technology Choices</h3>
+    <p>For version control, I picked Git, because &mdash;well&mdash; it's Git and it's
+    awesome. Plus, it gave my students the opportunity to learn to use
+    GitHub, which is becoming immensely popular. Although I don't cover
+    GitHub in this book, it's pretty easy to pick up once you get the hang
+    of Git.</p>
+    <p>I decided to use jQuery on the client because it's still relatively
+    popular and I enjoy working with it. I didn't use any other frameworks
+    on the client, although I do mention Twitter Bootstrap and Zurb
+    Foundation in Chapter 3. I chose to stay away from modern
+    client-side frameworks like Backbone or Ember, because I think they
+    are confusing for people who are just starting out. Like Rails,
+    however, you should be able to easily dive into them after reading
+    this book.</p>
+    <p>On the server-side, I chose Express because it's (relatively)
+    lightweight and unopinionated. I decided against covering client- and
+    server-side templating, because I think it's essential to learn to do
+    things by hand first.</p>
+    <p>I decided against relational databases because it seemed like I
+    couldn't give a meaningful overview of the topic in the time I
+    allotted to that aspect of the course. Instead, I chose MongoDB
+    because it is widely used in the Node.js community and uses JavaScript
+    as a query language. I also just happen to really like Redis so I
+    provided coverage of that as well.</p>
+    <p>I selected Cloud Foundry as the deployment platform because it was the
+    only one of the three that I considered (including Heroku and
+    Nodejitsu) that offered a free trial and didn't require a credit card
+    to set up external services. That said, the differences between the
+    platforms aren't huge, and going from one to another shouldn't be too
+    hard.</p>
+  </section>
+  <section id="bookForYou">
+    <h3>Is This Book for You?</h3>
+    <p>This book is not designed to make you a "ninja" or a "rock star" or
+    even a particularly good computer programmer. It won't prepare you for
+    immediate employment, nor can I promise that it will show you "the
+    right way" to do things.</p>
+    <p>On the other hand, it will give you a solid foundation in the
+    essential topics that you'll need in order to understand how the
+    pieces of a modern web app fit together, and it will provide a
+    launching point to further study on the topic. If you work your way
+    through this book, you'll know everything that I wish I had known when
+    I was first starting out with Rails.</p>
+    <p>You'll get the most out of this book if you have a little experience
+    programming and no previous experience with web development. At
+    minimum, you probably should have seen basic programming constructs
+    like 'if-else' statements, loops, variables, and data types. That
+    said, I won't assume that you have any experience with object-oriented
+    programming, nor any particular programming language. You can obtain
+    the necessary background by following tutorials on
+    <a href="http://khanacademy.org/">Khan Academy</a> or
+    <a href="http://codecademy.com/">Code Academy</a>, or by taking a programming
+    course at your local community college.</p>
+    <p>In addition to being used for self-study, I hope that this book can
+    serve as a textbook for community classes in web application
+    development, or perhaps a one-semester (14-week) college-level course.</p>
+  </section>
+  <section id="learningWith">
+    <h3>Learning with This Book</h3>
+    <p>Developing web applications is definitely a skill that you'll need to
+    learn by doing. With that in mind, I've written this book to be read
+    actively. What this means is that you'll get the most out of it if
+    you're sitting at a computer while reading it, and if you actually
+    type in all the examples.</p>
+    <p>Of course, this particular approach is fraught with peril--there is a
+    danger that the code examples will not work if you don't type them
+    exactly as they appear. To alleviate that risk, I've created a GitHub
+    repository with all of the examples in this book in working order. You
+    can view them on the Web at
+    <a href="http://github.com/semmypurewal/LearningWebAppDev">http://www.github.com/semmypurewal/LearningWebAppDev</a>. Because the full
+    examples live there, I try to avoid redundantly including full code
+    listings throughout.</p>
+    <p>In addition, I leave big portions of the projects open-ended. When I
+    do that, it's because I want you to try to finish them on your own. I
+    encourage you to do that before looking at the full examples I've
+    posted online. Every chapter concludes with a set of practice problems
+    and pointers to more information, so I encourage you to complete those
+    as well.</p>
+  </section>
+  <section id="teachingWith">
+    <h3>Teaching with This Book</h3>
+    <p>When I teach this material in a 14-week class, I usually spend about
+    2–3 weeks on the material in the first three chapters, and 3–4 weeks
+    on the material in the last three. That means I spend the majority of
+    the time on the middle three chapters, which cover JavaScript
+    programming, jQuery, AJAX, and Node.js. The students that I teach seem
+    to struggle the most with arrays and objects, so I spend extra time on
+    those because I think they are so essential to computer programming in
+    general.</p>
+    <p>I definitely cover things in a more 'computer-sciency' way than most
+    books on this topic, so it might be a good fit for a course in
+    computer science programs. Specifically, I cover mental models such as
+    trees and hierarchical systems, and I try to emphasize functional
+    programming approaches where they make sense (although I try not to
+    draw attention to this in the narrative). If you find yourself
+    teaching in a computer science program, you might choose to focus more
+    clearly on these aspects of the material.</p>
+    <p>I currently have no plans to post solutions to the practice problems
+    (although that may change if I get a lot of requests), so you can feel
+    comfortable assigning them as homework and out-of-class projects.</p>
+  </section>
+  <section id="forHelp">
+    <h3>Where to Go for Help</h3>
+    <p>As mentioned before, there is a
+    <a href="http://github.com/semmypurewal/LearningWebAppDev">GitHub Repository</a> with all of the code samples contained in this book. In
+    addition, you can check out <a href="http://learningwebappdev.com/errata.html"> this page</a> for errata
+    and other updates as they are necessary.</p>
+    <p>I also try to stay pretty accessible and would be glad to help if you
+    need it. Feel free to tweet at me <a href="http://twitter.com/semmypurewal">@semmypurewal</a> with quick
+    questions/comments, or email me any time <a href="mailto:me@semmy.me">me@semmy.me</a> with longer
+    questions. I also encourage you to use the "issues" feature of our
+    GitHub repository to ask questions. I'll do my best to respond as
+    quickly as I can.</p>
+  </section>
+  <section id="codeComments">
+    <h3>General Comments on Code</h3>
+    <p>I've done my best to stay idiomatic and clear wherever possible. That
+    said, those two goals are sometimes in conflict with each other.
+    Therefore, there are times when I didn't do things "the right way" for
+    pedagogical reasons. I hope that those places are self-evident to
+    experienced developers, and that they don't cause any grief for novice
+    developers in the long run.</p>
+    <p>All of the code should work fine in modern web browsers, and I've
+    tested everything in Chrome. Obviously, I can't guarantee things will
+    work in older versions of Internet Explorer. Please let me know if you
+    find any browser compatibility issues in the Internet Explorer 10+ or
+    modern versions of any other browser.</p>
+    <p>For the most part, I've followed idiomatic JavaScript, but there are a
+    few places I've strayed. For example, I preferred double quotes
+    instead of single quotes for strings, primarily because I've been
+    working under the assumption that students may be coming from a
+    Java/C++ background. I choose to use quotes around property names in
+    object literals so that JSON doesn't look too different from
+    JavaScript objects. I also use `$` as the first character in variables
+    that are pointing to jQuery objects. I find that it maintains clarity
+    and makes the code a little more readable for novices.</p>
+  </section>
+  <section id="acknowlegements">
+    <h3>Acknowledgments</h3>
+    <p>Thanks to the nice folks in the Computer Science department at UNC
+    Asheville for letting me teach this class twice. And, of course,
+    thanks to the students who took the class for being patient with me as
+    this material evolved.</p>
+    <p>Thanks to my editor Meg Blanchette for doing her best to keep me on
+    track and--of course--her constant patience with missed deadlines. I'm
+    going to miss our weekly email exchanges!</p>
+    <p>Thanks to Simon St. Laurent for offering lots of advice early on and
+    helping me get the idea approved by O'Reilly.</p>
+    <p>Sylvan Kavanaugh and Mark Philips both did a very careful reading of
+    every chapter and gave lots of very helpful feedback along the way.
+    Emily Watson read the first four chapters and gave lots of thoughtful
+    suggestions for improvements. Mike Wilson read the last four chapters
+    and gave invaluable technical advice. I owe you all a debt of
+    gratitude and hope I can repay the favor one day.</p>
+    <p>Bob Benites, Will Blasko, David Brown, Rebekah David, Andrea Fey, Eric
+    Haughee, Bruce Hauman, John Maxwell, Susan Reiser, Ben Rosen, and Val
+    Scarlata read various revisions of the material and provided helpful
+    suggestions. I sincerely appreciate the time and effort they put in.
+    You rock!</p>
+    <p>Despite the all-around-excellence of the reviewers and friends who
+    looked at the material, it's nearly impossible to write a book like
+    this without some technical errors, typos, and bad practices slipping
+    through the cracks. I take full responsibility for all of them.</p>
+  </section>
+
+</div>
+
+
+
+<div class="sidebar"> 
+  <div class="sidebarInner" data-spy="affix" data-offset-top="220" data-offset-bottom="0">
+    <div class="sidebarNav hidden-xs">
+      <ul>
+        <li>
+          <a href="#introduction">Introduction</a>
+        </li>
+        <li>
+          <a href="#techChoices">Technology Choices</a>
+        </li>
+        <li>
+          <a href="#bookForYou">Is This Book for You?</a>
+        </li>
+        <li>
+          <a href="#learningWith">Learning with This Book</a>
+        </li>
+        <li>
+          <a href="#teachingWith">Teaching with This Book</a>
+        </li>
+        <li>
+          <a href="#forHelp">Where to Go for Help</a>
+        </li>
+        <li>
+          <a href="#codeComments">General Comments on Code</a>
+        </li>
+        <li>
+          <a href="#acknowlegements">Acknowledgments</a>
+        </li>
+      </ul>
+    </div>
+    <div class="sidebarCta">
+      <div class="inner">
+         <img src="/images/sideCtaSmall.jpg">
+         <div class="mainCtaButton">
+          <a class="btn btn-primary" href="http://www.jdoqocy.com/click-7557398-11260198?url=http%3A%2F%2Fshop.oreilly.com%2Fproduct%2F0636920030621.do%3Fcmp%3Daf-prog-books-videos-product_cj_9781449370190_%2525zp&cjsku=0636920030621">Buy eBook on O'Reilly.com</a>
+          <footer class="small">
+            <p>All formats, one price &mdash; ePub, mobi, PDF</p>
+            <span>Also available in paperback.</span>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<!-- end wrapper subPage -->
+
+
+    </div>
+    <!-- end main container -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footerMain">
+            <div class="mediaObject">
+                <div class="media">
+                  <img src="images/semmy.png" alt="Semmy Purewal">
+                </div>
+                <div class="inner">
+                  <h3>About the Author</h3>
+                  <p><strong>Semmy Purewal</strong>, Senior Software Engineer at Netflix, spent nearly a decade teaching computer science and working as a freelance JavaScript consultant. During that time, he worked with a diverse group of clients that included start-ups, nonprofit organizations, and research labs.</p>
+                  <div class="social">
+                    <a class="homelink" href="http://semmy.me">Visit Semmy's Homepage</a>
+                    <a href="http://twitter.com/semmypurewal"><span class="fa fa-twitter"></span></a>
+                    <a href="http://github.com/semmypurewal"><span class="fa fa-github"></span></a>
+                    <a href="http://linkedin.com/in/semmypurewal"><span class="fa fa-linkedin"></span></a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerSupport">
+          <div class="inner">
+            <h3>Book Info:</h3>
+            <ul>
+              <li><strong>Languages:</strong> English, Portuguese</li>
+              <li><strong>Date Published:</strong> 2/2014</li>
+              <li><strong>Paperback:</strong> 284 Pages</li>
+              <li><strong>ISBN:</strong> 978-1-449-37019-0</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="/js/share.min.js"></script>
+    <script src="/js/docs.min.js"></script>
+
+
+    <script type="text/javascript">
+
+      $(document).ready(function(){
+
+          new Share(".share-button");
+
+      });
+
+    </script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-48563744-1', 'learningwebappdev.com');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>

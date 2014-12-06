@@ -1,25 +1,52 @@
 ---
 link: Errata
-layout: blog
-title: Learning Web Application Development -- Now Available from O'Reilly Media -- Errata
+layout: containerSidebar
+title: Learning Web Application Development -- Now Available from O'Reilly Media
 ---
 
-{% for num in (1..9) %}
-  {% capture cpt %}chapter{{num}}{% endcapture %}
-  {% if site.categories[cpt].size >= 1 %}
-    <h3>Chapter {{ num }}</h3>
-    <ul>
-    {% assign posts = site.categories[cpt] %}
 
-    {% for page in (1..400) %}
-      {% for post in posts  %}    
-        {% if post.page == page %}
-          {% if post.categories contains 'errata' %}
-          <li><a href="{{ post.url }}">[Page {{ post.page }}] {{ post.title }}</a></li>
+<div class="wrapper subPage errataContent">
+  <div class="content">
+    <h2 class="heading">Errata</h2>
+    <section class="collapseModule">
+      <a class="collapseTrigger" data-toggle="collapse" data-target="#first" aria-expanded="true" aria-controls="first">
+        First Printing <span class="datePublished">Published 2/2014</span>
+      </a>
+      <div id="first" class="collapse in">
+
+        {% for num in (1..9) %}
+          {% capture cpt %}chapter{{num}}{% endcapture %}
+            {% if site.categories[cpt].size >= 1 %}
+          <div class="group">
+            <h4>Chapter {{ num }}</h4>
+            <ul>
+            {% assign posts = site.categories[cpt] %}
+
+            {% for page in (1..400) %}
+              {% for post in posts  %}    
+                {% if post.page == page %}
+                  {% if post.categories contains 'errata' %}
+                  <li><a href="{{ post.url }}">(Page {{ post.page }}) &mdash; {{ post.title }}</a></li>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+            </ul>
           {% endif %}
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-    </ul>
-  {% endif %}
-{% endfor %}
+        {% endfor %}
+      
+        </div>
+      </div>
+    </section>
+
+    <!-- second collapse module -->
+    <section class="collapseModule">
+      <a class="collapseTrigger collapsed" data-toggle="collapse" data-target="#second" aria-expanded="true" aria-controls="second">
+        Second Printing <span class="datePublished">Published 8/2014</span>
+      </a>
+      <div id="second" class="collapse">
+        <h4>Secon Printing Coming Soon!!</h4>
+      </div>
+    </section>
+  </div>
+        

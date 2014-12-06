@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -6,46 +7,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    
+    <link rel="icon" href="../../favicon.ico">
+
     <title>{{ page.title }}</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
+    <link href="/custom/typewriterFontKit.css" rel="stylesheet">
+    <link href="/custom/bookTemplate.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="/css/blog.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
 
   <body>
-    <div class="blog-masthead">
+    <nav class="navbar" role="navigation">
       <div class="container">
-        <nav class="blog-nav">
-          {% if page.link == "Home" %}
-          <a class="blog-nav-item active" href="/index.html">Home</a>
-          {% else %}
-          <a class="blog-nav-item" href="/index.html">Home</a>          
-          {% endif %}
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mobileNav">
+            <span>Menu</span>
+          </button>
+           <a class="visible-xs navbar-brand" href="index.html">Learning Web App Development</a>
+           <li class='visible-xs pull-right'><a href="#" class="btn btn-primary btn-sm">Buy eBook</a></li>
+        </div>
+        <div class="collapse navbar-collapse" id="mobileNav">
+          <ul class="nav navbar-nav">
+            {% if page.link == "Home" %}
+            <li class="active"><a href="/index.html">Home</a></li>
+            {% else %}
+            <li><a href="/index.html">Home</a></li>
+            {% endif %}
 
-          {% if page.link == "Errata" %}
-          <a class="blog-nav-item active" href="/errata.html">Errata</a>
-          {% else %}
-          <a class="blog-nav-item" href="/errata.html">Errata</a>
-          {% endif %}
-          
-          <a class="blog-nav-item" href="http://github.com/semmypurewal/learningwebappdev">Examples <i class="fa fa-external-link fa-1x"></i></a>
+            {% if page.link == "Praise" %}
+            <li class="active"><a href="/praise.html">Praise</a></li>
+            {% else %}
+            <li><a href="/praise.html">Praise</a></li>
+            {% endif %}
 
+            {% if page.link == "Preface" %}
+            <li class="active"><a href="/preface.html">Preface</a></li>
+            {% else %}
+            <li><a href="/preface.html">Preface</a></li>
+            {% endif %}
 
-        </nav>
+            {% if page.link == "Errata" %}
+            <li class="active"><a href="/errata.html">Errata</a></li>
+            {% else %}
+            <li><a href="/errata.html">Errata</a></li>
+            {% endif %}
+
+            {% if page.link == "Examples" %}
+            <li class="active"><a href="/examples.html">Examples</a></li>
+            {% else %}
+            <li><a href="/examples.html">Examples</a></li>
+            {% endif %}
+
+            <li class="share-button"></li> 
+
+          </ul>
+        </div> 
+
       </div>
-    </div>
+    </nav>
+
+    
+    <div class="mainContainer container">
+      <div class="mainHeader">
+        <h1 class="heading">Learning Web App Development</h1>
+        <p>by Semmy Purewal</p>
+      </div>
