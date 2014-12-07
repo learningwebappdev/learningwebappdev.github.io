@@ -44,6 +44,9 @@ body {
 	margin-bottom: 10px;
 
 	@media(min-width:@screen-sm-min){
+		margin-bottom: 35px;
+	}
+	@media(min-width:@screen-md-min){
 		margin-bottom: 100px;
 	}
 }
@@ -610,15 +613,17 @@ nav.navbar{
 		}
 
 		@media(max-width:480px){
-			padding:0;
+			
 			h2.heading{
 				font-size: 24px;
 				text-align: center;
 			}
+			
 		}
 
-
 	}
+
+
 	.sidebar{
 		.make-sm-column(4);
 		.make-lg-column(3);
@@ -628,12 +633,16 @@ nav.navbar{
 			top:0;
 
 
-			@media(min-width:@screen-lg-min){
-				width:263px;
-				position: fixed;
-			}
+			
 			@media(min-width:@screen-sm-min){
 				position: static;
+			}
+			@media(min-width:@screen-lg-min){
+				width:263px;
+				
+			}
+			@media(min-width:1050px){
+				position: fixed;
 			}
 			@media(max-width:768px){
 				position: static;
@@ -676,6 +685,19 @@ nav.navbar{
 		}
 	}
 
+}
+@media(max-width:480px){
+	.blogContent{
+
+		.content{
+			padding:0 !important;
+		}
+		
+
+		.blogHeading h2.heading{
+			text-align: left;
+		}
+	}
 }
 .errataContent, .blogContent, .examplesContent, .praiseContent{
 
