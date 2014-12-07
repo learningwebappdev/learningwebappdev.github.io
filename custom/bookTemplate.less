@@ -359,6 +359,13 @@ nav.navbar{
 		border-radius: 30px;
 		font-size: 16px;
 		padding:12px 16px;
+
+		@media(min-width:@screen-sm-min){
+			font-size: 13px;
+		}
+		@media(min-width:@screen-md-min){
+			font-size: 16px;
+		}
 	}
 }
 
@@ -623,9 +630,10 @@ nav.navbar{
 
 			@media(min-width:@screen-lg-min){
 				width:263px;
+				position: fixed;
 			}
 			@media(min-width:@screen-sm-min){
-				position: fixed;
+				position: static;
 			}
 			@media(max-width:768px){
 				position: static;
