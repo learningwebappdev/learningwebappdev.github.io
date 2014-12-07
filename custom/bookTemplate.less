@@ -437,9 +437,11 @@ nav.navbar{
 	.quoteContainer{
 		.make-sm-column(12);
 		float: left;
-		margin-top: 40px;
+		margin-top: 20px;
 		padding: 0 0 30px 0;
-		
+		@media(min-width:@screen-xs-min){
+			margin-top: 40px;
+		}
 
 		.quote{
 			border-bottom:1px solid @brand-primary;
@@ -592,13 +594,23 @@ nav.navbar{
 	margin-top:50px;
 
 	.content{
-
+		.clearfix();
 		.make-sm-column(8);
 		.make-lg-column(9);
 
 		section{
 			margin-bottom: 40px;
 		}
+
+		@media(max-width:480px){
+			padding:0;
+			h2.heading{
+				font-size: 24px;
+				text-align: center;
+			}
+		}
+
+
 	}
 	.sidebar{
 		.make-sm-column(4);
@@ -753,10 +765,12 @@ nav.navbar{
 
 .examplesContent{
 	margin-bottom: 0;
-
-	.content{
-		min-height: 500px;
+	@media(min-width:@screen-sm-min){
+		.content{
+			min-height: 500px;
+		}
 	}
+
 	section{
 		margin-top: 30px;
 	}
