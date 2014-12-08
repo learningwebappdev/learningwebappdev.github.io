@@ -47,6 +47,37 @@
 
           new Share(".share-button");
 
+         
+          var sidebarPosition = function (){
+
+              $('.sidebarInner').affix({
+                  offset: {
+                    top: 220,
+                    bottom: 0
+                  }
+                });
+
+          }
+
+              
+
+           sidebarPosition();
+
+          $(window).resize(function() {
+             
+            if ($(window).width() >= 1050){
+
+              sidebarPosition();
+
+            }
+            else if ($(window).width() < 1050){
+               
+              sidebarPosition();
+
+            }
+
+          });
+
       });
 
 
