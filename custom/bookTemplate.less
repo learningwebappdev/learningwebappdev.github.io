@@ -171,13 +171,16 @@ nav.navbar{
 			a{
 				margin-top: -5px;
 				color:@gray;
+				text-decoration: underline;
 			}
-
-			background-color:#eee;
 
 			@media(min-width:@screen-sm-min){
 				border-top:5px solid #ccc;
-				background-color: transparent;
+
+				a{
+					text-decoration: none;
+				}
+
 			}
 			
 		}
@@ -224,7 +227,8 @@ nav.navbar{
 }
 @media(max-width:@screen-xs-max){
 	#mobileNav{
-		min-height: 300px;
+		min-height: 260px;
+		border-bottom: 1px solid #ddd;
 	}
 }
 
