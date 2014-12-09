@@ -39,51 +39,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="/js/share.min.js"></script>
     <script src="/js/docs.min.js"></script>
+    <script src="/js/site.js"></script>
 
-
-    <script type="text/javascript">
-
-      $(document).ready(function(){
-
-          new Share(".share-button");
-
-         
-          var sidebarPosition = function (){
-
-              $('.sidebarInner').affix({
-                  offset: {
-                    top: 220,
-                    bottom: 0
-                  }
-                });
-
-          }
-
-              
-
-           sidebarPosition();
-
-          $(window).resize(function() {
-             
-            if ($(window).width() >= 1050){
-
-              sidebarPosition();
-
-            }
-            else if ($(window).width() < 1050){
-               
-              sidebarPosition();
-
-            }
-
-          });
-
-      });
-
-
-      $('body').scrollspy({ target: '#navSpy' })
-
-    </script>
 
     
     <script>
