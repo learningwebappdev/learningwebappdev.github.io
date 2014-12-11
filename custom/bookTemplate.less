@@ -484,18 +484,20 @@ nav.navbar{
 // quote callout
 
 .quoteCallout{
+	.make-sm-column(5);
 	color:@brand-primary;
 	transition:all 0.5s;
-	.make-sm-column(5);
 	border:1px solid @brand-primary;
 	min-height: 218px;
+	margin-bottom: 45px;
 
 	@media(min-width:@screen-sm-min){
 		min-height: 1px;
-		margin-top: 95px;
+		margin-top: 80px;
+		margin-bottom: 0;
 	}
 	@media(min-width:@screen-md-min){
-		margin-top: 60px;
+		margin-top: 45px;
 	}
 
 	.inner{
