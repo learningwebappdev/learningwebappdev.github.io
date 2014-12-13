@@ -302,7 +302,7 @@ nav.navbar{
 	.content{
 		margin-bottom: 30px;
 		.make-sm-column(5);
-		// .make-sm-column-pull(7);
+
 
 		@media(min-width:@screen-sm-min){
 			margin-top:7%;
@@ -364,7 +364,7 @@ nav.navbar{
 	margin:60px 0;
 
 	@media(min-width:@screen-sm-min){
-		margin-top: 0;
+		margin:-30px 0  20px 0;
 	}
 }
 .sidebarCta{
@@ -598,9 +598,14 @@ nav.navbar{
 	}
 	@media(min-width:@screen-lg-min){
 		margin-top: -30px;
+
 	}
 	img{
 		.img-responsive();
+		@media(min-width:@screen-lg-min){
+		
+		margin-left:60px;
+		}
 	}
 }
 
