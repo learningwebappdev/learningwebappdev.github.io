@@ -60,6 +60,14 @@
       ga('create', 'UA-48563744-1', 'learningwebappdev.com');
       ga('send', 'pageview');
 
+      $('.btn-primary').on('click', function() {
+        ga('send', 'event', 'cta', 'click', 'btn-primary');
+      });
+
+      $('.share-button').on('click', function(){
+        ga('send', 'event', 'share', 'click', 'share-button');
+      });
+
       
     </script>
   </body>
