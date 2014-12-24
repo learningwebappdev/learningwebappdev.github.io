@@ -309,7 +309,9 @@ nav.navbar{
 		margin-bottom: 30px;
 		.make-sm-column(5);
 
-
+		em{
+			font-style: normal;
+		}
 
 		@media(min-width:@screen-sm-min){
 			margin-top:7%;
@@ -403,6 +405,11 @@ nav.navbar{
 	h2{
 		font-size: 30px;
 		margin-bottom: 15px;
+		text-align: center;
+
+		@media(min-width:@screen-xs-min){
+			text-align: left;
+		}
 
 		@media(min-width:@screen-sm-min){
 			font-size: 36px;
