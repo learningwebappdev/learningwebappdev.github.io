@@ -47,7 +47,10 @@ body {
 		margin-bottom: 35px;
 	}
 	@media(min-width:@screen-md-min){
-		margin-bottom: 100px;
+		margin-bottom: 50px;
+	}
+	@media(min-width:@screen-lg-min){
+		margin-bottom: 75px;
 	}
 }
 
@@ -65,12 +68,24 @@ body {
 		font-size: 21px;
 	}
 }
+.btn-md{
+	font-size: 18px;
+	padding: 15px 20px;
+
+}
 .btn-primary{
 	border:none;
 }
+.btn-default{
+	color:@brand-primary;
+
+	&:hover{
+		color:(darken(@brand-primary, 10%))
+	}
+}
 
 a{
-	transition:background-color 0.5s;
+	transition:background-color 0.5s, color 0.5s;
 
 	.glyphicon{
 		vertical-align: text-top;
@@ -101,7 +116,7 @@ a{
 	border:1px solid @border;
   box-shadow: 0px 3px 0px 0px darken(@background, 12%); //add to button mixin
 }
-.btn-sm{
+.btn-sm, .btn-md{
 	border-radius: 30px;
 }
 .btn-lg{
@@ -307,38 +322,64 @@ nav.navbar{
 
 	.content{
 		margin-bottom: 30px;
-		.make-sm-column(5);
+		.make-sm-column(6);
+		
+		@media(min-width:@screen-lg-min){
+			width:46%;
+		}
 
 		em{
 			font-style: normal;
 		}
 
 		@media(min-width:@screen-sm-min){
-			margin-top:7%;
+			margin-top:10%;
 			padding-left:0;
 		}
-		@media(min-width:880px){
-			margin-top:10%;
-		}
-		@media(min-width:1100px){
+		@media(min-width:865px){
 			margin-top:15%;
 		}
+		@media(min-width:@screen-md-min){
+			margin-top:13%;
+		}
+		// @media(min-width:@screen-lg-min){
+		// 	margin-top:15%;
+		// }
 		.mainCopy{
 			margin-bottom: 25px;
 		}
 	}
 	.heroImage{
 		margin-top:3%;
-		.make-sm-column(7);
+		.make-sm-column(6);
 		// .make-sm-column-push(5);
 		img{
 			.img-responsive();
 		}
 	}
 	.mainCtaButton{
-		@media(min-width:@screen-sm-min){
+		@media(min-width:989px){
 			.pull-left();
+			.btn-md{
+				font-size: 16px;
+
+			}
+			
 		}
+		@media(min-width:1005px){
+			.btn-md{
+				font-size: 18px;
+
+			}
+			
+		}
+		@media(min-width:@screen-lg-min){
+			
+			.btn-primary{
+				font-size: 20px;
+			}
+		}
+
 	}
 }
 
@@ -353,6 +394,16 @@ nav.navbar{
 
 		@media(min-width:@screen-xs-min){
 			display: inline-block;
+		}
+	}
+	.btn-primary{
+		@media(min-width:@screen-xs-min){
+			margin-bottom:10px;
+		}
+		
+
+		@media(min-width:@screen-lg-min){
+			margin-bottom: 0;
 		}
 	}
 
