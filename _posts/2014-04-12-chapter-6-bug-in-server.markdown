@@ -5,6 +5,7 @@ date:   2014-04-12 16:42:00
 categories: errata chapter6
 author: Semmy
 page: 205
+printing: First
 ---
 
 On page 205, the Express server that serves up `todos.json` is missing a slash.

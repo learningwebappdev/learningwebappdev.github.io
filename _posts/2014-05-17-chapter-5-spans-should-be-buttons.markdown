@@ -5,6 +5,7 @@ date:   2014-05-17 13:40:00
 categories: errata chapter5
 author: Semmy
 page: 174
+printing: First
 ---
 
 There are a couple of instance on pagees 174-175 where code that looks

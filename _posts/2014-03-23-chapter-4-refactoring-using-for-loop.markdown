@@ -5,6 +5,7 @@ date:   2014-03-16 13:55:33
 categories: errata chapter4
 author: Semmy
 page: 136
+printing: First
 ---
 
 In an earlier iteration of the book, I had a discussion of the JavaScript `this`
@@ -15,7 +16,7 @@ Unfortunately, this change led to an (embarrassing) error in one of the examples
 in Chapter 4. The example appears on page 136 in this snippet of code.
 
     var tabNumber;
-   
+
     for (tabNumber = 1; tabNumber <= 3; tabNumber++) {
         var tabSelector = ".tabs a:nth-child(" + tabNumber + ") span";
         $(tabSelector).on("click", function () {
@@ -34,13 +35,13 @@ earlier draft). Simply change
 to
 
     $(this).addClass("active");
-    
+
 
 You can think of the `this` operator as simply a pointer to the current DOM
 element that is clicked on in the click handler. There are lots of gotchas with
 the `this` operator in JavaScript, however, so I decided to avoid it when
 introducing basic concepts to beginners.
-    
+
 Explaining why the code above fails is a little trickier without first
 explaining closures. The easiest way to describe what's happening here
 is that there's actually only one `tabSelector` variable, and it's shared among

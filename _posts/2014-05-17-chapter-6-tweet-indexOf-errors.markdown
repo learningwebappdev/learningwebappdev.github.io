@@ -5,6 +5,7 @@ date:   2014-04-20 12:40:00
 categories: errata chapter6
 author: Semmy
 page: 199
+printing: First
 ---
 
 Starting on page 199 there are several errors involving the `tweet` object. Specifically

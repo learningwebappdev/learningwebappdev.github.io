@@ -5,6 +5,7 @@ date:   2014-05-17 19:40:00
 categories: errata chapter4
 author: Semmy
 page: 135
+printing: First
 ---
 
 On page 135, there's a minor error in the section called 'Creating the tab functionality.'

@@ -5,6 +5,7 @@ date:   2014-03-23 13:00:33
 categories: errata chapter4
 author: Semmy
 page: 108
+printing: First
 ---
 
 In page 108 of Chapter 4, there is an example that looks like this.
