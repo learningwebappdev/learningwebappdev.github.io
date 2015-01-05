@@ -5,6 +5,7 @@ date:   2014-04-20 12:40:00
 categories: errata chapter6
 author: Semmy
 page: 194
+printing: First
 ---
 
 In the code example on page 194, there is a missing parenthesis at the end

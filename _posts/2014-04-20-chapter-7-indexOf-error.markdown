@@ -5,6 +5,7 @@ date:   2014-04-20 12:18:00
 categories: errata chapter7
 author: Semmy
 page: 219
+printing: First
 ---
 
 There is a slight error in the code that determines if a tweet contains the

@@ -2,9 +2,10 @@
 layout: post
 title:  "A better clicking experience?"
 date:   2014-03-16 13:55:33
-categories: errata chapter4
+categories: errata chapter4 firstPrinting
 author: Semmy
 page: 106
+printing: First
 ---
 
 There is a section in Chapter 4 called 'A better clicking experience.' This

@@ -5,6 +5,7 @@ date:   2014-03-23 13:55:33
 categories: errata chapter9
 author: Semmy
 page: 264
+printing: First
 ---
 
 In Figure 9-1, the HTTP response arrow should be pointing from the server to the

@@ -5,6 +5,7 @@ date:   2014-05-18 18:40:00
 categories: errata chapter8
 author: Semmy
 page: 234
+printing: First
 ---
 
 The free trial for CloudFoundry has moved from [the CloudFoundry homepage](http://www.cloudfoundry.com)

@@ -5,6 +5,7 @@ date:   2014-05-17 23:40:00
 categories: errata chapter5
 author: Semmy
 page: 171
+printing: First
 ---
 
 On page 171, the test example has the `organizeByTag` function declared

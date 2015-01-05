@@ -5,6 +5,7 @@ date:   2014-06-07 14:40:00
 categories: errata chapter6
 author: Semmy
 page: 196
+printing: First
 ---
 
 On page 196, we set up `ntwitter` to use our Twitter API keys. Twitter has recently changed the name of the _Consumer key_ and _Consumer secret_ to _API key_ and _API secret_, respectively. They also refer to the _Access token key_ as simply an _Access token_ now.

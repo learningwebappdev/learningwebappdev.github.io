@@ -5,6 +5,7 @@ date:   2014-03-16 13:22:33
 categories: errata chapter2
 author: Semmy
 page: 50
+printing: First
 ---
 
 At the end of Chapter 2, on page 50, the last step of the memorization exercise

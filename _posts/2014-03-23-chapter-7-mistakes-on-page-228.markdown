@@ -5,6 +5,7 @@ date:   2014-03-23 13:55:33
 categories: errata chapter7
 author: Semmy
 page: 228
+printing: First
 ---
 
 There are two minor errors in Chapter 7 on page 228. The first appears in the

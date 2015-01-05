@@ -5,6 +5,7 @@ date:   2014-05-18 19:40:00
 categories: errata chapter3
 author: Semmy
 page: 66
+printing: First
 ---
 
 In the "Layouts with Floats" section in Chapter 3, there is an
@@ -19,8 +20,8 @@ of the float. To fix this, we can add a class to the floating element:
           <p><a href="link2">link2</a></p>
           <p><a href="link3">link3</a></p>
           <p><a href="link4">link4</a></p>
-        </nav>    
-    
+        </nav>
+
         <p class="content">Lorem ipsum dolor sit amet, consectetur adip
            sed do eiusmod tempor incididunt ut labore et dolore magna a
            enim ad minim veniam, quis nostrud exercitation ullamco labo
@@ -39,12 +40,12 @@ the `content` paragraph.
         background: gray;
         overflow: auto;
     }
-    
+
     nav {
         width: 100px;
         float: right;
     }
-    
+
     p.content {
         margin: 0; /* remove the default margin on p */
         padding: 10px;
@@ -53,5 +54,5 @@ the `content` paragraph.
     }
 
 Similar changes will apply to all CSS in this section.
-    
+
 Thanks to Marco Vaccari for discovering and reporting this issue!

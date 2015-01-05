@@ -5,6 +5,7 @@ date:   2014-08-03 14:40:00
 categories: errata chapter6
 author: Semmy
 page: 205
+printing: First
 ---
 
 In Chapter 6, we hard-code the _toDos_ items on the server-side. This should be an array, but

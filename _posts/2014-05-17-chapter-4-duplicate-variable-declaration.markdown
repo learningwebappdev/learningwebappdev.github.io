@@ -5,6 +5,7 @@ date:   2014-05-17 20:40:00
 categories: errata chapter4
 author: Semmy
 page: 108
+printing: First
 ---
 
 On page 108, the variable `$new_comment` is inadvertently declared with in two

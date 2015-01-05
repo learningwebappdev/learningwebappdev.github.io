@@ -5,6 +5,7 @@ date:   2014-05-17 13:50:00
 categories: errata chapter5
 author: Semmy
 page: 175
+printing: First
 ---
 
 In Chapter 5, we add a new tab to the Amazeriffic app. In the code on page

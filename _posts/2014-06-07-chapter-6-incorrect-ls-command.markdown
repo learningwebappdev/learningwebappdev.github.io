@@ -5,6 +5,7 @@ date:   2014-06-07 12:40:00
 categories: errata chapter6
 author: Semmy
 page: 197
+printing: First
 ---
 
 On page 197, after installing the ntwitter module, I type `ls node_modules`. This won't work. The `node_modules` directory is actually one directory above, in the `app` directory.

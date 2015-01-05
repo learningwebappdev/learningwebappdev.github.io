@@ -5,6 +5,7 @@ date:   2014-06-07 12:40:00
 categories: errata chapter6
 author: Semmy
 page: 202
+printing: First
 ---
 
 Starting on page 202, there are a couple of issues with the description of setting up the server for Amazeriffic.

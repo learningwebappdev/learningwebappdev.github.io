@@ -5,6 +5,7 @@ date:   2014-05-17 18:40:00
 categories: errata chapter7
 author: Semmy
 page: 219
+printing: First
 ---
 
 Starting on page 219 there are several code snippets that declare a `redisClient` variable but
