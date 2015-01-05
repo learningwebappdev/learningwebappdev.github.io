@@ -9,13 +9,14 @@ title: Errata Listings from the book Learning Web Application Development. Error
   <div class="content">
     <h2 class="heading">Errata</h2>
 
-    
+
     <section class="collapseModule">
       <a class="collapseTrigger" data-toggle="collapse" data-target="#second" aria-expanded="true" aria-controls="second">
         Second Printing <span class="datePublished">Published 8/2014</span>
       </a>
       <div id="second" class="collapse in">
-        {% for num in (1..9) %}
+        {% assign chapters = "2|5|6" | split: "|" %}
+        {% for num in chapters %}
           {% capture cpt %}chapter{{num}}{% endcapture %}
             {% if site.categories[cpt].size >= 1 %}
           <div class="group">
@@ -37,7 +38,7 @@ title: Errata Listings from the book Learning Web Application Development. Error
         {% endfor %}
       </div>
     </section>
-    
+
     <!-- second collapse module -->
     <section class="collapseModule">
       <a class="collapseTrigger  collapsed" data-toggle="collapse" data-target="#first" aria-expanded="true" aria-controls="first">
@@ -70,5 +71,5 @@ title: Errata Listings from the book Learning Web Application Development. Error
       </div>
     </section>
 
-    
+
   </div>
