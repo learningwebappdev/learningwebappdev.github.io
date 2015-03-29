@@ -33,4 +33,5 @@ He also has some specific instructions for getting the tweet counter to work
 and [here](http://blogs.uoregon.edu/cit382sched15w/cloud-foundry/add-redis-cloud).
 
 Thanks to Mike Hennessey for all of his help in tracking down these
-issues and providing solutions!
+issues and providing solutions! And many thanks to Marik Marshak for
+reporting this to us!
